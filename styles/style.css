@@ -53,12 +53,12 @@ body{
 .nav-left{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10px;  
 }
 
 .nav-right ul{
     display: flex;
-    gap: 15px;
+     gap: 15px; 
     list-style: none;
 }
 .nav-right ul li a{
@@ -69,9 +69,7 @@ body{
     font-weight: 400;
     line-height: normal;
 }
- .nav-right ul .home{
-    color: #FF5400;
-}
+ 
 .nav-title{
     color: #131318;
     font-size: 36px;
@@ -86,12 +84,6 @@ body{
     font-weight: 800;
     line-height: normal;
 }
-
-
-
-
-
-
 
 
 /* banner related style */
@@ -121,9 +113,6 @@ body{
     line-height: normal;
    
 }
-
-
-
 
 .banner-description{
     color: #FFF;
@@ -621,6 +610,10 @@ hr{
     }
     .nav-right{
         margin-top: 20px;
+    }
+
+    .nav-right ul{
+        gap: 8px;
     }
 
     .banner-option form{
